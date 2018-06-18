@@ -1,0 +1,27 @@
+.jumbotron{
+    background: linear-gradient(60deg,#3d7afd 0,#4c6df9 50%,#4a68ef 50%,#5b5ef4 100%);
+    color: #fffafa;
+    border-radius: 0px;
+    clip-path: polygon(0 0, 100% 0, 95% 90%, 0% 100%);
+    height: 25%;
+    
+}
+.jumbotron:hover{
+    filter: grayscale(.4);
+    transition: ease .8s all;
+    animation-timing-function: ease-out;
+}
+
+.jumbotron h1, .jumbotron h3{
+    color: #fffafa;
+    
+}
+
+.active{
+    background: linear-gradient(60deg,#3d7afd 0,#4c6df9 50%,#4a68ef 50%,#5b5ef4 100%);
+}
+
+.active:hover{
+    filter: grayscale(.4);
+    transition: ease .8s all;
+}

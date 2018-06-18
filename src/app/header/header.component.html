@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h1>All About Ionic</h1>
+  <h3>...a tutorial</h3>
+</div>
+
+<div class="container-flex">
+  <nav class="nav nav-pills flex-column flex-sm-row">
+    <a class="flex-sm-fill text-sm-center nav-link" (click)="viewPage = 'install'" [class.active]="viewPage == 'install'" routerLink="install">Install Ionic</a>
+    <a class="flex-sm-fill text-sm-center nav-link" (click)="viewPage = 'check'" [class.active]="viewPage == 'check'"  routerLink="check">Checking Version</a>
+    <a class="flex-sm-fill text-sm-center nav-link" (click)="viewPage = 'create'" [class.active]="viewPage == 'create'" routerLink="create">Create New Project</a>
+    <a class="flex-sm-fill text-sm-center nav-link" (click)="viewPage = 'run'" [class.active]="viewPage == 'run'" routerLink="run">Running The Server</a>
+    <a class="flex-sm-fill text-sm-center nav-link" (click)="viewPage = 'more'" [class.active]="viewPage == 'more'" routerLink="more">More Information</a>
+  </nav>
+</div>

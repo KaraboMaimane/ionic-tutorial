@@ -1,0 +1,23 @@
+.terminal-code{
+	color: #24FF00;
+	background: #2c3e50;
+	padding: 10px;
+	border-radius: 2px;
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+.bigtext{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.container{
+	animation: .4s fadeIn;
+}
+
+@keyframes fadeIn{
+	0%{opacity: 0; transform: scale(0.9);}
+	100%{opacity: 1; transform: scale(1);}
+}
